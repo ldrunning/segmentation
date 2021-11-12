@@ -20,7 +20,7 @@ This repository is a PyTorch implementation for GDN. The code is easy to use for
 3. Clone the repository:
 
    ```shell
-   git clone https://github.com/ldrunning/segmentation
+   git clone git@github.com:ldrunning/segmentation.git
    ```
 
 4. Train:
