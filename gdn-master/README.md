@@ -63,11 +63,12 @@ This repository is a PyTorch implementation for GDN. The code is easy to use for
    ```
 
 7. Other:
-
-   - Models: ImageNet pre-trained models and trained segmentation models can be accessed. Note that our ImageNet pretrained models are slightly different from original [ResNet](https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py) implementation in the beginning part.
+   -TensorRT  git clone https://github.com/NVIDIA-AI-IOT/torch2trt
+   
 
    - Datasets: attributes (`names` and `colors`) are in folder `dataset` and some sample lists can be accessed.
- 
+
+
 
 ### Performance
 
