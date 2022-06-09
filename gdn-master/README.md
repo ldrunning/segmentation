@@ -63,9 +63,8 @@ This repository is a PyTorch implementation for GDN. The code is easy to use for
    ```
 
 7. Other:
-   -TensorRT  git clone https://github.com/NVIDIA-AI-IOT/torch2trt
-   
 
+   -TensorRT  git clone https://github.com/NVIDIA-AI-IOT/torch2trt
    - Datasets: attributes (`names` and `colors`) are in folder `dataset` and some sample lists can be accessed.
 
 
