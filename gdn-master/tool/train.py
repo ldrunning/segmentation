@@ -110,8 +110,8 @@ def main_worker(gpu, ngpus_per_node, argss):
     if args.arch == 'gdn':
         from model.gdn import GDN
         model = GDN(layers=args.layers, classes=args.classes, zoom_factor=args.zoom_factor, criterion=criterion)
-        modules_ori = [model.pre, model.sr_head, model.sr_body, model.sr_tail]
-        modules_new = [model.head, model.body_1, model.body_2, model.tail]
+        modules_ori = [model.pre, model.sr_head, model.sr_body, model.sr_tail, model.seg1, model.seg2]
+        modules_new = [model.head, model.body_1, model.body_2, model.tail1, model.tail2]
     params_list = []
     for module in modules_ori:
         params_list.append(dict(params=module.parameters(), lr=args.base_lr))
