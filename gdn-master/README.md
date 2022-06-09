@@ -14,7 +14,7 @@ This repository is a PyTorch implementation for GDN. The code is easy to use for
 
 2. Requirement:
 
-   - Hardware: 4 GPUs (better with >=11G GPU memory)
+   - Hardware: 8 GPUs (better with >=11G GPU memory)
    - Software: PyTorch>=1.6.0, Python3, [tensorboardX](https://github.com/lanpa/tensorboardX), 
 
 3. Clone the repository:
