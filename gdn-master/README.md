@@ -67,8 +67,12 @@ This repository is a PyTorch implementation for GDN. The code is easy to use for
    -TensorRT  git clone https://github.com/NVIDIA-AI-IOT/torch2trt
    - Datasets: attributes (`names` and `colors`) are in folder `dataset` and some sample lists can be accessed.
 
+8. Model
 
-
+   -https://pan.baidu.com/s/1lMh-YU4_HQjMmyHCVeXQJw 
+   -uaoc
+   
+   
 ### Performance
 
 Description: **mIoU/mAcc/aAcc** stands for mean IoU, mean accuracy of each class and all pixel accuracy respectively. **ss** denotes single scale testing and **ms** indicates multi-scale testing. Training time is measured on a sever with 8 GeForce RTX 2080 Ti. General parameters cross different datasets are listed below:
