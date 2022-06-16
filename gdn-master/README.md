@@ -28,7 +28,7 @@ This repository is a PyTorch implementation for GDN. The code is easy to use for
    - Download related datasets and symlink the paths to them as follows (you can alternatively modify the relevant paths specified in folder `config`):
 
      ```
-     cd semseg
+     cd gdn
      mkdir -p dataset
      ln -s /path_to_cityscapes_dataset dataset/cityscapes
      ```
